@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Avenir;
+    src: url('../assets/fonts/AvenirNextLTPro-Regular.otf');
+}
+
+.header{
+    width: 100%;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid var(--black);
+
+}
+
+.logo{
+    width: 40%;
+    height: auto;
+    margin: 20px;
+}
+
+.tabs-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.tab{
+    font-family: Avenir-Regular;
+    color: var(--blue1);
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+}
+

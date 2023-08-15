@@ -1,0 +1,30 @@
+.content{
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content-container{
+    display:flex;
+}
+
+
+.section{
+    background: white;
+    margin: 10px;
+    width: 100%;
+}
+
+.section-content{
+    padding: 10px;
+}
+
+.header-text {
+    background: var(--blue1);
+    color: var(--white);
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
